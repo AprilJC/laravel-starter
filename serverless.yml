@@ -1,0 +1,12 @@
+component: laravel
+name: laravelDemo
+app: laravel-starter
+inputs:
+  src: ./
+  region: ap-guangzhou
+  runtime: Php7
+  apigatewayConf:
+    protocols:
+      - http
+      - https
+    environment: release
